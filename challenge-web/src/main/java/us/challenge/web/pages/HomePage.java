@@ -3,10 +3,9 @@ package us.challenge.web.pages;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import us.challenge.core.utils.PropertiesInfo;
 
 /**
- * This class represents Polls page.
+ * This class represents Home page.
  */
 public class HomePage extends BasePage {
 
@@ -22,9 +21,5 @@ public class HomePage extends BasePage {
      */
     public HomePage() {
         this.navBarPage = new NavBarPage();
-    }
-
-    public void searchItem(String keyNameItem) {
-        this.navBarPage.searchItem(keyNameItem);
     }
 }

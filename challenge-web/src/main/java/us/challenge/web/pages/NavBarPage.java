@@ -19,10 +19,16 @@ public class NavBarPage extends BasePage {
     @FindBy(css = "a#nav-cart")
     private WebElement cartIcon;
 
+    @FindBy(id = "nav-link-accountList")
+    private WebElement accountAndList;
+
+    public OpenAccountAndListMenu openAccountAndListMenu;
+
     /**
      * Constructor method.
      */
     public NavBarPage() {
+        this.openAccountAndListMenu = new OpenAccountAndListMenu();
     }
 
     public void searchItem(String keyNameItem) {
@@ -34,5 +40,9 @@ public class NavBarPage extends BasePage {
     public CartPage clickCartIcon(){
         CommonActions.clickWebElement(cartIcon);
         return new CartPage();
+    }
+
+    public void openAccountAndListDropDownList() {
+        CommonActions.hoverOverWebElement(accountAndList);
     }
 }

@@ -30,10 +30,4 @@ public class HomeStepdefs {
         this.homePage.navigateToBaseUrl();
         LOGGER.info("Navigate to Portal page");
     }
-
-    @When("I search the {string} item")
-    public void iSearchTheItem(String keyNameItem) {
-        this.homePage.searchItem(keyNameItem);
-    }
-
 }

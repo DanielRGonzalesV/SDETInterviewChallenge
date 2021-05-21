@@ -1,0 +1,53 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'http://repo.bodar.com'
+        }
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.5"
+    }
+}
+plugins {
+    id "io.qameta.allure" version "2.8.1"
+}
+def allureResult = file("${rootProject.rootDir}/challenge-web/allure-results")
+def allureReport = file("${rootProject.rootDir}/challenge-web/allure-report")
+
+allure {
+    version = '2.13.8'
+    resultsDir = allureResult
+    reportDir = allureReport
+}
+dependencies {
+    compile project(":challenge-core")
+    compile project(":challenge-api")
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.1'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+}
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
+
+task webFeatures(type: Test) {
+    useTestNG()
+    options {
+        jvmArgs = ['-Dcucumber.execution.strict=' + true]
+        jvmArgs = ['-Dcucumber.plugin=io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm']
+//        jvmArgs = ["-Dcucumber.filter.tags=" + tags + " and not @Deprecated"]
+//        jvmArgs = ["-DurlApi=" + urlApi]
+//        jvmArgs = ["-Demail=" + email]
+//        jvmArgs = ["-Dpassword=" + password]
+//        jvmArgs = ["-Dbrowser=" + browser]
+//        jvmArgs = ["-DplatformName=" + platformName]
+//        jvmArgs = ["-Denv=" + env]
+    }
+    // Flag to show console output.
+    testLogging.showStandardStreams = true
+    // Flag to scan for classes with @Test annotation.
+    scanForTestClasses = false
+    finalizedBy 'allureReport'
+}

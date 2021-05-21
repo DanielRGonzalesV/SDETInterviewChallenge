@@ -1,0 +1,4 @@
+rootProject.name = 'SDETInterviewChallenge'
+include 'challenge-core'
+include 'challenge-api'
+include 'challenge-web'

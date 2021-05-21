@@ -17,8 +17,8 @@
 /build/
 /log/
 /report/
+/images/
 /.allure/
+*.DS_Store
 /.scannerwork/
 debug.log
-/challenge-web/logs/challenge-web.log
-/challenge-api/logs/challenge-api.log

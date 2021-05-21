@@ -3,7 +3,7 @@ package us.challenge.web.pages;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import us.challenge.core.utils.JsonFileManager;
+import us.challenge.core.constants.EnvConstants;
 import us.challenge.web.utils.CommonActions;
 
 public class NavBarPage extends BasePage {
@@ -32,7 +32,7 @@ public class NavBarPage extends BasePage {
     }
 
     public void searchItem(String keyNameItem) {
-        String dataValue = JsonFileManager.getValueData(keyNameItem);
+        String dataValue = EnvConstants.get(keyNameItem);
         CommonActions.setWebElement(searchInput, dataValue);
         CommonActions.clickWebElement(searchButton);
     }

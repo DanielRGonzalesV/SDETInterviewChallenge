@@ -27,7 +27,8 @@ public class CreateAccountPage extends BasePage {
         return CommonActions.isElementPresent(registerFormContainer);
     }
 
-    public void fillOutForm(int indexEmployee, Map<String, String> newAccountInfo) {
+    public void fillOutForm(String indexEmployee, Map<String, String> newAccountInfo) {
+
 
     }
 

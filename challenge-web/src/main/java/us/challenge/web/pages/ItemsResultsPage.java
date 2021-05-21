@@ -1,11 +1,9 @@
 package us.challenge.web.pages;
 
-import org.apache.commons.collections4.CollectionUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import us.challenge.core.constants.EnvConstants;
-import us.challenge.core.utils.JsonFileManager;
 import us.challenge.web.utils.CommonActions;
 
 import java.util.List;
@@ -41,13 +39,13 @@ public class ItemsResultsPage extends BasePage {
     }
 
     public boolean isItemOnResultsDisplayed(String keyNameItem) {
-        String dataValue = JsonFileManager.getValueData(keyNameItem);
+        String dataValue = EnvConstants.get(keyNameItem);
         List<String> results = CommonActions.getListStringForAllElements(itemsTextFound);
         return results.contains(dataValue);
     }
 
     public void saveDataValue(String keyNameItem) {
-        String dataValue = JsonFileManager.getValueData(keyNameItem);
+        String dataValue = EnvConstants.get(keyNameItem);
         String itemIndex = this.getIndexFirstElementFound(dataValue);
         String completeItemPriceFound = this.getCompletePrice(itemIndex);
         EnvConstants.set(keyNameItem, completeItemPriceFound);
@@ -58,7 +56,7 @@ public class ItemsResultsPage extends BasePage {
     }
 
     public void selectFirstItem(String keyNameItem) {
-        String dataValue = JsonFileManager.getValueData(keyNameItem);
+        String dataValue = EnvConstants.get(keyNameItem);;
         this.clickOnFirstItemWithCriteria(dataValue);
     }
 

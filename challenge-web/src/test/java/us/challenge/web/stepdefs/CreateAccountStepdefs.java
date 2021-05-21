@@ -33,8 +33,8 @@ public class CreateAccountStepdefs {
         Assert.assertTrue(createAccountPage.isDisplayed(), "Create Account page is not displayed");
     }
 
-    @When("I fill out the form with the information of employee number {int}")
-    public void iFillOutTheFormWithTheInformationOfEmployeeNumber(final int indexEmployee, final Map<String, String> newAccountInfo) {
+    @When("I fill out the form with the information of employee number {string}")
+    public void iFillOutTheFormWithTheInformationOfEmployeeNumber(final String indexEmployee, final Map<String, String> newAccountInfo) {
         this.createAccountPage.fillOutForm(indexEmployee, newAccountInfo);
     }
 

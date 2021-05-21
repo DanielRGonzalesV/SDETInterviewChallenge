@@ -6,3 +6,7 @@
 2021-05-20 23:35:06 INFO  DriverManager:49 - Driver created with hash 1857803463
 2021-05-20 23:35:06 INFO  DriverManager:50 - DriverWait created with hash 661697546
 2021-05-20 23:35:09 INFO  StoreStepdefs:31 - Navigate to Portal page
+2021-05-20 23:46:58 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-20 23:47:00 INFO  DriverManager:49 - Driver created with hash 1874981692
+2021-05-20 23:47:00 INFO  DriverManager:50 - DriverWait created with hash 139371985
+2021-05-20 23:47:02 INFO  StoreStepdefs:31 - Navigate to Portal page

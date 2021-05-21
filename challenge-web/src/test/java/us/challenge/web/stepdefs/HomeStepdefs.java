@@ -8,8 +8,8 @@ import us.challenge.web.pages.HomePage;
 /**
  * This class represents Store steps.
  */
-public class StoreStepdefs {
-    private static final Logger LOGGER = Logger.getLogger(StoreStepdefs.class.getSimpleName());
+public class HomeStepdefs {
+    private static final Logger LOGGER = Logger.getLogger(HomeStepdefs.class.getSimpleName());
 
     private HomePage homePage;
 
@@ -18,7 +18,7 @@ public class StoreStepdefs {
      *
      * @param homePage dependency.
      */
-    public StoreStepdefs(final HomePage homePage) {
+    public HomeStepdefs(final HomePage homePage) {
         this.homePage = homePage;
     }
 
@@ -27,13 +27,13 @@ public class StoreStepdefs {
      */
     @Given("I navigate to Amazon Portal")
     public void iNavigateToAmazonPortal() {
-        this.homePage.navigateToPage();
+        this.homePage.navigateToBaseUrl();
         LOGGER.info("Navigate to Portal page");
     }
 
     @When("I search the {string} item")
     public void iSearchTheItem(String keyNameItem) {
-//        this.homePage.searchItem(keyNameItem);
+        this.homePage.searchItem(keyNameItem);
     }
 
 }

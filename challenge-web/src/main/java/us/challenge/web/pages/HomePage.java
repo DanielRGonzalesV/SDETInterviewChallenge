@@ -15,13 +15,16 @@ public class HomePage extends BasePage {
     @FindBy(css = "#nav-cart-count-container .nav-cart-icon")
     private WebElement cartIcon;
 
+    private NavBarPage navBarPage;
+
     /**
      * Constructor method.
      */
     public HomePage() {
+        this.navBarPage = new NavBarPage();
     }
 
-    public void navigateToPage() {
-        this.navigateToUrl(PropertiesInfo.getInstance().getUrl());
+    public void searchItem(String keyNameItem) {
+        this.navBarPage.searchItem(keyNameItem);
     }
 }

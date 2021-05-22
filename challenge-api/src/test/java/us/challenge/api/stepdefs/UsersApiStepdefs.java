@@ -2,7 +2,6 @@ package us.challenge.api.stepdefs;
 
 import io.cucumber.java.en.When;
 import us.challenge.api.services.UsersService;
-import us.challenge.core.constants.EnvConstants;
 
 /**
  * This class represents user api steps.

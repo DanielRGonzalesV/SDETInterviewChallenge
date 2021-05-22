@@ -40,7 +40,7 @@ public final class EnvConstants {
      * This method adds the constants values to the map.
      */
     private static void initSLConstants() {
-        CONSTANTS_MAP.put("Test Key", "Test Value");
+        CONSTANTS_MAP.put("actualPhone", PropertiesInfo.getInstance().actualPhone());
         CONSTANTS_MAP.put("AdminUserEmail", PropertiesInfo.getInstance().getEmail());
     }
 

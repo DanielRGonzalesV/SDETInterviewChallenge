@@ -1,10 +1,8 @@
 package us.challenge.web.stepdefs;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import us.challenge.web.pages.HomePage;
 import us.challenge.web.pages.VerifyEmailAddressPage;
 
 /**

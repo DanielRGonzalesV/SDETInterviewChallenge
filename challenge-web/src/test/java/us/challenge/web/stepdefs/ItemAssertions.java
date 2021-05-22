@@ -35,7 +35,7 @@ public class ItemAssertions {
 
     @And("The item price displayed should be the same as saved {string} price")
     public void theItemPriceDisplayedShouldBeTheSameAsSavedPrice(String keyNameItem) {
-        Assert.assertEquals(itemPage.getItemPriceWithoutSymbol(), EnvConstants.get(keyNameItem),
+        Assert.assertEquals(itemPage.getItemPriceWithoutSymbol(), EnvConstants.get(keyNameItem.concat("Price")),
                 "The prices are not equals");
     }
 }

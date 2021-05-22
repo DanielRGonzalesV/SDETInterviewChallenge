@@ -37,13 +37,7 @@ task webFeatures(type: Test) {
     options {
         jvmArgs = ['-Dcucumber.execution.strict=' + true]
         jvmArgs = ['-Dcucumber.plugin=io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm']
-//        jvmArgs = ["-Dcucumber.filter.tags=" + tags + " and not @Deprecated"]
-//        jvmArgs = ["-DurlApi=" + urlApi]
-//        jvmArgs = ["-Demail=" + email]
-//        jvmArgs = ["-Dpassword=" + password]
-//        jvmArgs = ["-Dbrowser=" + browser]
-//        jvmArgs = ["-DplatformName=" + platformName]
-//        jvmArgs = ["-Denv=" + env]
+        jvmArgs = ["-Dcucumber.filter.tags=" + tags + " and not @Deprecated"]
     }
     // Flag to show console output.
     testLogging.showStandardStreams = true

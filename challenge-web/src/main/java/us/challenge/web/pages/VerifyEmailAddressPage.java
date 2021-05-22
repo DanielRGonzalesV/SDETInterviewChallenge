@@ -8,8 +8,8 @@ import us.challenge.web.utils.CommonActions;
 public class VerifyEmailAddressPage extends BasePage {
     private static final Logger LOG = Logger.getLogger(VerifyEmailAddressPage.class.getName());
 
-    @FindBy(id = "verification-code-form")
-    private WebElement verificationForm;
+    @FindBy(id = "a-page")
+    private WebElement verificationPuzzle;
 
     /**
      * Constructor method.
@@ -18,6 +18,6 @@ public class VerifyEmailAddressPage extends BasePage {
     }
 
     public boolean isDisplayed() {
-        return CommonActions.isElementPresent(verificationForm);
+        return CommonActions.isElementPresent(verificationPuzzle);
     }
 }

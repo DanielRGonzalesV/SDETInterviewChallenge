@@ -35,7 +35,7 @@ public class PreOrderAssertions {
 
     @And("The item price added should be the same as saved {string} price")
     public void theItemPriceAddedShouldBeTheSameAsSavedPrice(String keyNameItem) {
-        Assert.assertEquals(this.preOrderPage.getItemPriceWithoutSymbol(), EnvConstants.get(keyNameItem),
+        Assert.assertEquals(this.preOrderPage.getItemPriceWithoutSymbol(), EnvConstants.get(keyNameItem.concat("Price")),
                 "The prices are not equals");
     }
 }

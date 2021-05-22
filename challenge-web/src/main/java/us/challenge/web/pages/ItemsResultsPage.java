@@ -7,6 +7,7 @@ import us.challenge.core.constants.EnvConstants;
 import us.challenge.web.utils.CommonActions;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ItemsResultsPage extends BasePage {
 
@@ -15,7 +16,6 @@ public class ItemsResultsPage extends BasePage {
     private static final String ITEM_IMAGE = "  [data-component-type='s-product-image'] a";
     private static final String ITEM_WHOLE_PRICE = " .a-price-whole";
     private static final String ITEM_FRACTION_PRICE = " .a-price-fraction";
-    private static final String ITEM_PRICE_SYMBOL = " .a-price-symbol";
     public static final String DECIMAL_DOT = ".";
 
     @FindBy(css = "[data-component-type='s-result-info-bar']")
@@ -41,14 +41,14 @@ public class ItemsResultsPage extends BasePage {
     public boolean isItemOnResultsDisplayed(String keyNameItem) {
         String dataValue = EnvConstants.get(keyNameItem);
         List<String> results = CommonActions.getListStringForAllElements(itemsTextFound);
-        return results.contains(dataValue);
+        return results.stream().filter(element -> element.contains(dataValue)).collect(Collectors.toList()).size() > 0;
     }
 
     public void saveDataValue(String keyNameItem) {
         String dataValue = EnvConstants.get(keyNameItem);
         String itemIndex = this.getIndexFirstElementFound(dataValue);
         String completeItemPriceFound = this.getCompletePrice(itemIndex);
-        EnvConstants.set(keyNameItem, completeItemPriceFound);
+        EnvConstants.set(keyNameItem.concat("Price"), completeItemPriceFound);
     }
 
     private WebElement getItemElement(String itemIndex, String elementValue) {
@@ -56,7 +56,8 @@ public class ItemsResultsPage extends BasePage {
     }
 
     public void selectFirstItem(String keyNameItem) {
-        String dataValue = EnvConstants.get(keyNameItem);;
+        String dataValue = EnvConstants.get(keyNameItem);
+        ;
         this.clickOnFirstItemWithCriteria(dataValue);
     }
 
@@ -67,7 +68,8 @@ public class ItemsResultsPage extends BasePage {
     }
 
     private String getIndexFirstElementFound(String dataValue) {
-        WebElement elementFound = allItemsFound.stream().filter(item -> item.getText().contains(dataValue)).findFirst().orElse(null);
+        WebElement elementFound = allItemsFound.stream().filter(item -> item.getText().contains(dataValue))
+                .findFirst().orElse(null);
         return CommonActions.getAttribute(elementFound, "data-index");
     }
 

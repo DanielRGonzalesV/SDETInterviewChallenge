@@ -21,6 +21,9 @@ public class CartPage extends BasePage {
         this.navBarPage = new NavBarPage();
     }
 
+    /**
+     * Method to remove All item on the Cart
+     */
     public void removeAllItems() {
         CommonActions.clickWebElement(removeItem);
     }

@@ -20,10 +20,9 @@ public abstract class BasePage {
         driver = DriverManager.getInstance().getDriver();
         wait = DriverManager.getInstance().getWait();
         PageFactory.initElements(driver, this);
-        driver.manage().window().maximize();
     }
 
-    public void navigateToBaseUrl(){
+    public void navigateToBaseUrl() {
         driver.get(PropertiesInfo.getInstance().getUrl());
     }
 

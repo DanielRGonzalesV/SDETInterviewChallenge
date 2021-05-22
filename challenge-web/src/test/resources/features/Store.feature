@@ -14,7 +14,7 @@ Feature: Store
     # 7. Go to Cart and verify again the price of the phone
     # 8. Delete Item
   @Store_001 @deleteAddedItem
-  Scenario: Verify that user is able to search an item
+  Scenario: As a user, I want to search an item in the app
     When I search the "actualPhone" item
       Then The result page is displayed
       And The "actualPhone" item is displayed in the page
@@ -35,15 +35,16 @@ Feature: Store
     #  7. Locate the search bar and Search for Echo
     #  8. Locate "Echo support" options and click on it
     #  9. Following elements should be displayed: Getting Started, Wi-Fi and Bluetooth, Device Software and Hardware, TroubleShooting
-  @Store_001
-  Scenario: Verify that user is able to search an item
+  @Store_002
+  Scenario: As a user, I want to create an account in the app
     When I open the Account and list options
       And I click on Start here for New customer
     Then The Create account page is displayed
     When I fill out the form with the information of employee number "1"
-      | Your name         | employeeNameAPI     |
-      | Email             | employeeEmailAPI    |
-      | Password          | employeePasswordAPI |
-      | Re-enter password | employeePasswordAPI |
+      | Field             | Value                |
+      | Your name         | employeeNameAPI1     |
+      | Email             | employeeEmailAPI1    |
+      | Password          | employeePasswordAPI1 |
+      | Re-enter password | employeePasswordAPI1 |
       And I click on Create your Amazon account
     Then The Verify email address page is displayed

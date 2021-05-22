@@ -67,18 +67,4 @@ public final class DriverManager {
     public WebDriverWait getWait() {
         return wait;
     }
-
-    /**
-     * This method sets the driver to null.
-     */
-    public void setDriverToNull() {
-        this.driver = null;
-    }
-
-    /**
-     * This method set DriverManager instance to null.
-     */
-    public static void setDriverManagerToNull() {
-        instance = null;
-    }
 }

@@ -33,10 +33,10 @@ public class ItemPage extends BasePage {
 
     public String getItemPriceWithoutSymbol() {
         String finalValue = "";
-        Pattern p = Pattern.compile("(\\d+).");
+        Pattern p = Pattern.compile("(\\d+\\.\\d+)");
         Matcher m = p.matcher(CommonActions.getText(itemPrice));
         if (m.find()) {
-            finalValue = m.toString();
+            finalValue = String.valueOf(m.group(0));
         }
         return finalValue;
     }

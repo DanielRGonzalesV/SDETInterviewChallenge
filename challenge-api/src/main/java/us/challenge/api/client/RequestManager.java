@@ -43,7 +43,5 @@ public final class RequestManager {
                     + " Body " + response.getBody().asString());
         }
         return response;
-//        LOGGER.info("Response login API status Code: " + response.statusCode());
-//        LOGGER.info("Response login API as String: " + response.asString());
     }
 }

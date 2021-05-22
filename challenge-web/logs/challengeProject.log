@@ -10,3 +10,397 @@
 2021-05-20 23:47:00 INFO  DriverManager:49 - Driver created with hash 1874981692
 2021-05-20 23:47:00 INFO  DriverManager:50 - DriverWait created with hash 139371985
 2021-05-20 23:47:02 INFO  StoreStepdefs:31 - Navigate to Portal page
+2021-05-21 19:05:05 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:05:07 INFO  DriverManager:49 - Driver created with hash 167431450
+2021-05-21 19:05:07 INFO  DriverManager:50 - DriverWait created with hash 1704799590
+2021-05-21 19:05:22 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:06:46 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:10:50 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:10:52 INFO  DriverManager:49 - Driver created with hash 1964895040
+2021-05-21 19:10:52 INFO  DriverManager:50 - DriverWait created with hash 1096759211
+2021-05-21 19:11:09 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:11:33 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:12:20 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:12:22 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 19:12:22 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 19:12:52 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:13:03 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:13:05 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 19:13:05 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 19:13:32 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:13:46 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:15:58 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:16:00 INFO  DriverManager:49 - Driver created with hash 2139501486
+2021-05-21 19:16:00 INFO  DriverManager:50 - DriverWait created with hash 1757970371
+2021-05-21 19:16:25 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:24:26 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:26:27 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:26:29 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 19:26:29 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 19:26:52 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:27:07 INFO  EnvConstants:54 - New entry: [actualPhone, 972.58]
+2021-05-21 19:27:07 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:28:36 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:28:38 INFO  DriverManager:49 - Driver created with hash 826690115
+2021-05-21 19:28:38 INFO  DriverManager:50 - DriverWait created with hash 2139501486
+2021-05-21 19:29:09 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:29:14 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:29:16 INFO  DriverManager:49 - Driver created with hash 826690115
+2021-05-21 19:29:16 INFO  DriverManager:50 - DriverWait created with hash 2139501486
+2021-05-21 19:29:31 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:33:40 INFO  EnvConstants:54 - New entry: [actualPhone, 972.58]
+2021-05-21 19:34:37 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:36:45 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:36:47 INFO  DriverManager:49 - Driver created with hash 148353618
+2021-05-21 19:36:47 INFO  DriverManager:50 - DriverWait created with hash 1182985125
+2021-05-21 19:37:17 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:37:23 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:37:25 INFO  DriverManager:49 - Driver created with hash 148353618
+2021-05-21 19:37:25 INFO  DriverManager:50 - DriverWait created with hash 1182985125
+2021-05-21 19:38:44 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:38:46 INFO  DriverManager:49 - Driver created with hash 148353618
+2021-05-21 19:38:46 INFO  DriverManager:50 - DriverWait created with hash 1182985125
+2021-05-21 19:39:13 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:39:28 INFO  EnvConstants:54 - New entry: [actualPhone, 972.58]
+2021-05-21 19:39:29 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:40:16 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:40:18 INFO  DriverManager:49 - Driver created with hash 148353618
+2021-05-21 19:40:18 INFO  DriverManager:50 - DriverWait created with hash 1182985125
+2021-05-21 19:40:41 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:40:55 INFO  EnvConstants:54 - New entry: [actualPhone, 972.58]
+2021-05-21 19:43:56 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:43:58 INFO  DriverManager:49 - Driver created with hash 826690115
+2021-05-21 19:43:58 INFO  DriverManager:50 - DriverWait created with hash 2139501486
+2021-05-21 19:44:35 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:44:42 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:44:44 INFO  DriverManager:49 - Driver created with hash 2139501486
+2021-05-21 19:44:44 INFO  DriverManager:50 - DriverWait created with hash 1757970371
+2021-05-21 19:44:58 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:45:13 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 19:45:46 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:45:55 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:45:56 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 19:45:56 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 19:46:18 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:46:21 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 19:46:24 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:47:54 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:47:56 INFO  DriverManager:49 - Driver created with hash 826690115
+2021-05-21 19:47:56 INFO  DriverManager:50 - DriverWait created with hash 2139501486
+2021-05-21 19:48:22 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:48:36 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 19:56:31 INFO  WebHooks:46 - Finish execution
+2021-05-21 19:56:37 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 19:56:39 INFO  DriverManager:49 - Driver created with hash 2139501486
+2021-05-21 19:56:39 INFO  DriverManager:50 - DriverWait created with hash 1757970371
+2021-05-21 19:57:05 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 19:57:20 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 20:04:06 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:04:11 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:04:13 INFO  DriverManager:49 - Driver created with hash 1061913613
+2021-05-21 20:04:13 INFO  DriverManager:50 - DriverWait created with hash 826690115
+2021-05-21 20:04:35 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:04:49 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 29.95]
+2021-05-21 20:13:01 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:16:10 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:16:13 INFO  DriverManager:49 - Driver created with hash 1457075858
+2021-05-21 20:16:13 INFO  DriverManager:50 - DriverWait created with hash 377942196
+2021-05-21 20:16:34 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:16:49 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 20:17:10 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:17:25 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:17:27 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 20:17:27 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 20:17:48 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:18:03 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 20:18:58 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:21:03 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:21:05 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 20:21:05 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 20:21:31 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:21:46 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 20:22:04 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:24:53 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:24:55 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 20:24:55 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 20:25:12 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:25:48 INFO  WebHooks:46 - Finish execution
+2021-05-21 20:29:58 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:30:00 INFO  DriverManager:49 - Driver created with hash 131173657
+2021-05-21 20:30:00 INFO  DriverManager:50 - DriverWait created with hash 22760157
+2021-05-21 20:30:19 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:31:18 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:31:48 WARN  CommonActions:52 - Web element not found no such element: Unable to locate element: {"method":"css selector","selector":"#ap_register_form"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZEUS-PC', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Zeus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4586df8548d45ba718960200ce4949ff
+*** Element info: {Using=id, value=ap_register_form}
+2021-05-21 20:34:00 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:34:02 INFO  DriverManager:49 - Driver created with hash 22760157
+2021-05-21 20:34:02 INFO  DriverManager:50 - DriverWait created with hash 1516838709
+2021-05-21 20:34:32 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:35:29 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:36:01 WARN  CommonActions:52 - Web element not found no such element: Unable to locate element: {"method":"css selector","selector":"#verification\-code\-form"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZEUS-PC', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Zeus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37656c1e4c0748335dea8e009468688d
+*** Element info: {Using=id, value=verification-code-form}
+2021-05-21 20:41:56 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 20:41:58 INFO  DriverManager:49 - Driver created with hash 1306102152
+2021-05-21 20:41:58 INFO  DriverManager:50 - DriverWait created with hash 1252883095
+2021-05-21 20:44:07 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 20:44:07 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:20:01 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:20:03 INFO  DriverManager:49 - Driver created with hash 911501858
+2021-05-21 21:20:03 INFO  DriverManager:50 - DriverWait created with hash 677120200
+2021-05-21 21:20:28 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:20:44 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:20:45 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:20:45 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employees/1 endpoint 
+2021-05-21 21:20:58 ERROR RequestManager:42 - Failed to GET request: http://dummy.restapiexample.com/api/v1/employees/1 Status Code 404 Body {"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2021-05-21 21:20:58 INFO  UsersService:39 - Employee found:
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2021-05-21 21:20:59 INFO  UsersService:42 - Data body response: null
+2021-05-21 21:23:13 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:23:15 INFO  DriverManager:49 - Driver created with hash 15912555
+2021-05-21 21:23:15 INFO  DriverManager:50 - DriverWait created with hash 633683828
+2021-05-21 21:23:57 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:23:59 INFO  DriverManager:49 - Driver created with hash 15912555
+2021-05-21 21:23:59 INFO  DriverManager:50 - DriverWait created with hash 633683828
+2021-05-21 21:25:27 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:25:28 INFO  DriverManager:49 - Driver created with hash 15912555
+2021-05-21 21:25:28 INFO  DriverManager:50 - DriverWait created with hash 633683828
+2021-05-21 21:25:51 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:25:52 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:25:52 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employees/1 endpoint 
+2021-05-21 21:25:54 ERROR RequestManager:42 - Failed to GET request: http://dummy.restapiexample.com/api/v1/employees/1 Status Code 404 Body {"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2021-05-21 21:25:54 INFO  UsersService:39 - Employee found:
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2021-05-21 21:25:54 INFO  UsersService:42 - Data body response: null
+2021-05-21 21:30:25 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:30:27 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:30:27 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:30:53 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:30:55 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:30:55 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:31:05 INFO  UsersService:39 - Employee found:
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2021-05-21 21:31:05 INFO  UsersService:42 - Data body response: {id=1, employee_name=Tiger Nixon, employee_salary=320800, employee_age=61, profile_image=}
+2021-05-21 21:31:05 INFO  EnvConstants:54 - New entry: [employee1, Tiger Nixon]
+2021-05-21 21:31:05 INFO  EnvConstants:54 - New entry: [employeeNameAPI1, Tiger Nixon]
+2021-05-21 21:31:05 INFO  EnvConstants:54 - New entry: [employeeEmailAPI1, TigerNixon@fakeEmail.com]
+2021-05-21 21:31:05 INFO  EnvConstants:54 - New entry: [employeePasswordAPI1, Pass1234]
+2021-05-21 21:31:57 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:32:16 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:32:18 INFO  DriverManager:49 - Driver created with hash 1995647383
+2021-05-21 21:32:18 INFO  DriverManager:50 - DriverWait created with hash 1847738319
+2021-05-21 21:32:41 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:32:42 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:32:42 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:32:44 INFO  UsersService:39 - Employee found:
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2021-05-21 21:32:44 INFO  UsersService:42 - Data body response: {id=1, employee_name=Tiger Nixon, employee_salary=320800, employee_age=61, profile_image=}
+2021-05-21 21:32:44 INFO  EnvConstants:54 - New entry: [employee1, Tiger Nixon]
+2021-05-21 21:32:44 INFO  EnvConstants:54 - New entry: [employeeNameAPI1, Tiger Nixon]
+2021-05-21 21:32:44 INFO  EnvConstants:54 - New entry: [employeeEmailAPI1, TigerNixon@fakeEmail.com]
+2021-05-21 21:32:44 INFO  EnvConstants:54 - New entry: [employeePasswordAPI1, Pass1234]
+2021-05-21 21:33:45 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:35:33 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:35:35 INFO  DriverManager:49 - Driver created with hash 1995647383
+2021-05-21 21:35:35 INFO  DriverManager:50 - DriverWait created with hash 1847738319
+2021-05-21 21:35:46 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:35:47 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:35:47 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:35:49 INFO  UsersService:39 - Employee found:
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2021-05-21 21:35:49 INFO  UsersService:42 - Data body response: {id=1, employee_name=Tiger Nixon, employee_salary=320800, employee_age=61, profile_image=}
+2021-05-21 21:35:49 INFO  EnvConstants:54 - New entry: [employee1, Tiger Nixon]
+2021-05-21 21:35:49 INFO  EnvConstants:54 - New entry: [employeeNameAPI1, Tiger Nixon]
+2021-05-21 21:35:49 INFO  EnvConstants:54 - New entry: [employeeEmailAPI1, TigerNixon@fakeemail.com]
+2021-05-21 21:35:49 INFO  EnvConstants:54 - New entry: [employeePasswordAPI1, Pass1234]
+2021-05-21 21:36:50 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:36:58 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:37:00 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:37:00 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:37:27 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:37:29 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:37:29 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:37:30 INFO  UsersService:39 - Employee found:
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2021-05-21 21:37:31 INFO  UsersService:42 - Data body response: {id=1, employee_name=Tiger Nixon, employee_salary=320800, employee_age=61, profile_image=}
+2021-05-21 21:37:31 INFO  EnvConstants:54 - New entry: [employee1, Tiger Nixon]
+2021-05-21 21:37:31 INFO  EnvConstants:54 - New entry: [employeeNameAPI1, Tiger Nixon]
+2021-05-21 21:37:31 INFO  EnvConstants:54 - New entry: [employeeEmailAPI1, TigerNixon@fakeemail.com]
+2021-05-21 21:37:31 INFO  EnvConstants:54 - New entry: [employeePasswordAPI1, Pass1234]
+2021-05-21 21:38:23 WARN  CommonActions:52 - Web element not found no such element: Unable to locate element: {"method":"css selector","selector":"#verification\-code\-form"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZEUS-PC', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Zeus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0af461b7c104c74053b0aeeaacbd139b
+*** Element info: {Using=id, value=verification-code-form}
+2021-05-21 21:38:23 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:40:48 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:40:50 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:40:50 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:41:03 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:41:05 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:41:05 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:41:07 INFO  UsersService:39 - Employee found:
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2021-05-21 21:41:07 INFO  UsersService:42 - Data body response: {id=1, employee_name=Tiger Nixon, employee_salary=320800, employee_age=61, profile_image=}
+2021-05-21 21:41:07 INFO  EnvConstants:54 - New entry: [employee1, Tiger Nixon]
+2021-05-21 21:41:07 INFO  EnvConstants:54 - New entry: [employeeNameAPI1, Tiger Nixon]
+2021-05-21 21:41:07 INFO  EnvConstants:54 - New entry: [employeeEmailAPI1, TigerNixon@fakeemail.com]
+2021-05-21 21:41:07 INFO  EnvConstants:54 - New entry: [employeePasswordAPI1, Pass1234]
+2021-05-21 21:41:21 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:43:17 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:43:18 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:43:18 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:43:19 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:43:36 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:43:37 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:43:37 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:43:38 INFO  WebHooks:47 - Finish execution
+2021-05-21 21:46:04 INFO  Chrome:23 - Initializing Google Chrome Driver...
+2021-05-21 21:46:05 INFO  DriverManager:49 - Driver created with hash 966497610
+2021-05-21 21:46:05 INFO  DriverManager:50 - DriverWait created with hash 396539191
+2021-05-21 21:46:27 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:46:42 INFO  EnvConstants:54 - New entry: [actualPhonePrice, 972.58]
+2021-05-21 21:46:47 INFO  HomeStepdefs:31 - Navigate to Portal page
+2021-05-21 21:46:49 INFO  RequestHandler:29 - ADD TO HEADER: Content-Type:application/json
+2021-05-21 21:46:49 INFO  RequestHandler:40 - GET: http://dummy.restapiexample.com/api/v1/employee/1 endpoint 
+2021-05-21 21:47:03 ERROR RequestManager:42 - Failed to GET request: http://dummy.restapiexample.com/api/v1/employee/1 Status Code 429 Body <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-05-21 21:47:03 INFO  UsersService:39 - Employee found:
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-05-21 21:47:03 INFO  WebHooks:47 - Finish execution

@@ -1,13 +1,12 @@
 package us.challenge.web.stepdefs;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import us.challenge.web.pages.CreateAccountPage;
-import us.challenge.web.pages.HomePage;
 
 import java.util.List;
 import java.util.Map;
@@ -19,6 +18,7 @@ public class CreateAccountStepdefs {
     private static final Logger LOGGER = Logger.getLogger(CreateAccountStepdefs.class.getSimpleName());
 
     private CreateAccountPage createAccountPage;
+
     /**
      * Constructor for Create Account Page steps.
      *
@@ -34,8 +34,12 @@ public class CreateAccountStepdefs {
     }
 
     @When("I fill out the form with the information of employee number {string}")
-    public void iFillOutTheFormWithTheInformationOfEmployeeNumber(final String indexEmployee, final Map<String, String> newAccountInfo) {
-        this.createAccountPage.fillOutForm(indexEmployee, newAccountInfo);
+    public void iFillOutTheFormWithTheInformationOfEmployeeNumber(final String indexEmployee, final DataTable newAccountInfo) {
+        this.createAccountPage.loadEmployeeInformation(indexEmployee);
+        List<Map<String, String>> dataToFill = newAccountInfo.asMaps(String.class, String.class);
+        for (Map<String, String> rowMap : dataToFill) {
+            this.createAccountPage.fillOutForm(rowMap.get("Field"), rowMap.get("Value"));
+        }
     }
 
     @And("I click on Create your Amazon account")

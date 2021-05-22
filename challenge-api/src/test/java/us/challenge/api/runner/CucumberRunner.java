@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
                 "html:report/cucumber-html-report", "rerun:report/rerun.txt",
                 "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"},
         features = {"src/test/resources/features"},
-        glue = {"us.socialive.api"},
+        glue = {"us.challenge.api"},
         strict = true)
 public class CucumberRunner extends AbstractTestNGCucumberTests {
 

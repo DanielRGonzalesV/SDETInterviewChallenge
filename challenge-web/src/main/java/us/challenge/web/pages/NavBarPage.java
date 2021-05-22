@@ -22,13 +22,10 @@ public class NavBarPage extends BasePage {
     @FindBy(id = "nav-link-accountList")
     private WebElement accountAndList;
 
-    public OpenAccountAndListMenu openAccountAndListMenu;
-
     /**
      * Constructor method.
      */
     public NavBarPage() {
-        this.openAccountAndListMenu = new OpenAccountAndListMenu();
     }
 
     public void searchItem(String keyNameItem) {
@@ -37,7 +34,7 @@ public class NavBarPage extends BasePage {
         CommonActions.clickWebElement(searchButton);
     }
 
-    public CartPage clickCartIcon(){
+    public CartPage clickCartIcon() {
         CommonActions.clickWebElement(cartIcon);
         return new CartPage();
     }

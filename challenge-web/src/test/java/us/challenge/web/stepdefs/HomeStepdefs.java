@@ -1,7 +1,6 @@
 package us.challenge.web.stepdefs;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import us.challenge.web.pages.HomePage;
 

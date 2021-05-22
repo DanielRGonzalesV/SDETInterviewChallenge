@@ -1,7 +1,5 @@
 package us.challenge.core.utils;
 
-import org.apache.log4j.Logger;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,15 +9,13 @@ import java.util.Properties;
  * This class is going to handle all the properties that are set on the gradle.properties file.
  */
 public final class PropertiesInfo {
-    private static final Logger LOGGER = Logger.getLogger(PropertiesInfo.class.getSimpleName());
     private static final String CONFIG_PROPERTIES = PathUtils.buildPath("gradle.properties");
-//    private static final String CONFIG_PROPERTIES = "../../../gradle.properties";
     private static final String URL = "url";
     private static final String BROWSER = "browser";
-    private static final String PASS_PROPERTY = "password";
     private static final String EMAIL = "email";
-    private static final String API_EMAIL = "api_email";
+    private static final String ACTUAL_PHONE = "actualPhone";
     private static final String BASE_API = "urlApi";
+    private static final String PASSWORD = "password";
 
     private static PropertiesInfo instance;
     private Properties properties;
@@ -107,17 +103,8 @@ public final class PropertiesInfo {
      *
      * @return api email.
      */
-    public String getAPIEmail() {
-        return getProperty(API_EMAIL);
-    }
-
-    /**
-     * This method gets password.
-     *
-     * @return password.
-     */
-    public String getPassword() {
-        return getProperty(PASS_PROPERTY);
+    public String actualPhone() {
+        return getProperty(ACTUAL_PHONE);
     }
 
     /**
@@ -137,5 +124,14 @@ public final class PropertiesInfo {
      */
     public String getUrl() {
         return getProperty(URL);
+    }
+
+    /**
+     * This method retrieves the Password to use for Employees
+     *
+     * @return the employees password.
+     */
+    public String getPassword() {
+        return getProperty(PASSWORD);
     }
 }

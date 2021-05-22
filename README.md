@@ -59,3 +59,10 @@ References
 2. Appium (http://appium.io/docs/en/about-appium/api/)
 3. Cucumber (https://docs.cucumber.io/docs/cucumber/)
 4. Rest Assured (https://javadoc.io/doc/io.rest-assured/rest-assured/latest/index.html)
+
+---
+Reports
+---
+![image](https://user-images.githubusercontent.com/17088826/119212120-5df94a00-ba84-11eb-93d2-d5558aa09328.png)
+
+![image](https://user-images.githubusercontent.com/17088826/119212128-66518500-ba84-11eb-8a61-2e9b2b236370.png)
